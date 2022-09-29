@@ -5,7 +5,7 @@ tags:
 - homepage
 
 ---
-This is the Wardley Mapping Foundation's fork of the Organised Services Operating Model (OSOM). OSOM is a template operating
+The Organised Services Operating Model (OSOM) is a template operating
 model to help organisations adopt a service-based approach. This is in
 opposition to a functional model, where capabilities are grouped by
 skills and ownership of the delivery to users is an endeavour shared
