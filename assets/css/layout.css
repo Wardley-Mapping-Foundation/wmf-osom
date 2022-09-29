@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+    list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+main > * + *,
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 
+   Remove all animations and transitions for people that prefer
+   not to see them
+*/
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* structure paragraphs with some spacing at the top and bottom
+p {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+*/
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: [side] 30vw [content] 40vw;
+    grid-template-rows: [head] 10rem [body] auto [foot] 10rem;
+
+    color: var(--text-color);
+    background: var(--page-background);
+}
+
+body > header {
+    grid-column: side / span 2;
+}
+
+body > footer {
+    grid-column: side / span 2;
+    font-size: .8em;
+}
+
+body > footer > p {
+    margin-left: 1em;
+    max-width: 60%;
+}
+
+body > main {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid var(--menu-hover-background);
+    padding-left: 1rem;
+}
+
+main > :first-child {
+    margin-top: 0;
+}
+
+header,
+aside {
+    user-select: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: var(--text-color);
+}
+
+main ol.footnotes-list {
+    font-size: .75em;
+    margin-left: 1em;
+    list-style: decimal;
+}
+
+menu {
+    user-select: none;
+  background: var(--page-background);
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+
+menu li {
+  color: var(--text-background);
+  background: var(--page-background);
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+menu li a {
+    color: var(--text-background);
+}
+
+menu li:hover,
+menu li:focus-within {
+  background: var(--menu-hover-background);
+  cursor: pointer;
+}
+
+[aria-current="page"] {
+    background: var(--menu-current-background);
+}
+
+menu li menu {
+    border-left: 1px solid #eee;
+  box-shadow: 2.5px 2.5px 2.5px #eee;
+  background: var(--menu-background);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 20rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+menu li:hover > menu,
+menu li:focus-within > menu,
+menu li menu:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+menu li menu li {
+  clear: both;
+  width: 100%;
+}
+
+menu li:focus-within a {
+  outline: none;
+}
