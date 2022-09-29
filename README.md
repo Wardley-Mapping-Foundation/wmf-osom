@@ -24,7 +24,7 @@ Navigate to http://localhost:8080/
 OSOM Guide is configured to deploy to Firebase by default.  You'll need to update configuration & set up GitHub Actions.  More on this soon.
 
 ## GitHub Pages
-OSOM Guide works with GitHub Pages, with some tweaks.  You'll need to remove default Firebase config.  More on this soon.
+OSOM Guide works with GitHub Pages, with some tweaks.  You'll need to remove default Firebase config.  More on this soon ...
 
 # Editing Tools
 ## Forestry.io
