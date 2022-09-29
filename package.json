@@ -10,7 +10,7 @@
   "scripts": {
     "test": "tap",
     "develop": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy --pathprefix '/wmf-osom/'"
   },
   "keywords": [
     "OSOM",
