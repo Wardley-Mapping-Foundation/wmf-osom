@@ -5,17 +5,17 @@ tags:
 - processes
 
 ---
-To help ensure the smooth running of a service network, the executive needs to assess each [service](/services/) regularly. This assessment can be conducted directly by the executive or delegated to a team of experts assembled for the task.
+To help ensure the smooth running of a service network, the executive needs to assess each [service]({{ '/services/' | url }}) regularly. This assessment can be conducted directly by the executive or delegated to a team of experts assembled for the task.
 
-The primary purpose of the assessment is to understand how well the service meets the user needs, but it will also examine how the service is being managed and how well it has adopted the [behaviours](/doctrine).
+The primary purpose of the assessment is to understand how well the service meets the user needs, but it will also examine how the service is being managed and how well it has adopted the [behaviours]({{ '/doctrine' | url }}).
 
-An agenda including the executive's chosen [assessment criteria](/service-assessment-criteria/) will be distributed in advance, and once assessed the executive will publish a [service assessment report](/service-assessment-report).
+An agenda including the executive's chosen [assessment criteria]({{ '/service-assessment-criteria/' | url }}) will be distributed in advance, and once assessed the executive will publish a [service assessment report]({{ '/service-assessment-report' | url }}).
 
-While the purpose of the assessment remains the same, the nature of the assessment will change as the service progresses through the [lifecycle](/lifecycle/).
+While the purpose of the assessment remains the same, the nature of the assessment will change as the service progresses through the [lifecycle]({{ '/lifecycle/' | url }}).
 
 ## After a discovery phase
 
-When a [discovery phase](/lifecycle/#discovery) comes to its conclusion, an assessment will need to be conducted to determine the service should move on to an alpha stage or not.
+When a [discovery phase]({{ '/lifecycle/#discovery' | url }}) comes to its conclusion, an assessment will need to be conducted to determine the service should move on to an alpha stage or not.
 
 During the discovery, the service contract will have been tested with user research, and the service team will have a good idea about what will be needed to address the needs that have been identified. Additional or different user needs may have been discovered beyond the original concept and would need to be incorporated into the service contract.
 
@@ -23,7 +23,7 @@ There are three possible outcomes of a discovery phase:
 
 1. The service is not required
 2. More research is required, and a further discovery phase should be conducted
-3. Unaddressed needs have been identified, and the service should progress to an [alpha](/lifecycle/#alpha) stage.
+3. Unaddressed needs have been identified, and the service should progress to an [alpha]({{ '/lifecycle/#alpha' | url }}) stage.
 
 ### The service is not required
 

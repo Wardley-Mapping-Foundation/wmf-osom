@@ -5,9 +5,9 @@ tags:
 - concept
 
 ---
-The OSOM executive provides oversight and governance to the [service network](/service-network) by holding [Service Managers](/service-managers) accountable for their services, through a number of tools and methods.
+The OSOM executive provides oversight and governance to the [service network]({{ '/service-network' | url }}) by holding [Service Managers]({{ '/service-managers' | url }}) accountable for their services, through a number of tools and methods.
 
-In an ideal organisation, there would be no requirement for an executive _team_. The responsibilities held by the executive, and the activities required to act upon those responsibilities would be conducted entirely by a single individual. However, given constraints of time, complexity and expertise it is unlikely to be possible. Therefore the executive is responsible for augmenting their own skills with the addition of [executive team members](/executive-team-member) who speak with the voice of the executive.
+In an ideal organisation, there would be no requirement for an executive _team_. The responsibilities held by the executive, and the activities required to act upon those responsibilities would be conducted entirely by a single individual. However, given constraints of time, complexity and expertise it is unlikely to be possible. Therefore the executive is responsible for augmenting their own skills with the addition of [executive team members]({{ '/executive-team-member' | url }}) who speak with the voice of the executive.
 
 ## The role of the executive
 
@@ -25,11 +25,11 @@ The executive has a number of roles and responsibilities in OSOM:
 
 ## Establish, decommission, assess, alter, and hold services accountable
 
-A key role of the executive is to establish services; conduct assessments on them as they progress from discovery to alpha, alpha to beta, and beta to live; disband the services when no longer needed, and hold the managers of those services accountable throughout the [service lifecycle](/lifecycle).
+A key role of the executive is to establish services; conduct assessments on them as they progress from discovery to alpha, alpha to beta, and beta to live; disband the services when no longer needed, and hold the managers of those services accountable throughout the [service lifecycle]({{ '/lifecycle' | url }}).
 
 ### Establish Services
 
-The Executive [establishes a service](/establishing-a-new-service/) by publishing a [Service Contract](/service-contract), allocating a budget and appointing a Service Manager for the service. Typically, a new service will start the service lifecycle in discovery and progress through alpha and beta where the contract and how it is delivered will be refined until it is live.
+The Executive [establishes a service]({{ '/establishing-a-new-service/' | url }}) by publishing a [Service Contract]({{ '/service-contract' | url }}), allocating a budget and appointing a Service Manager for the service. Typically, a new service will start the service lifecycle in discovery and progress through alpha and beta where the contract and how it is delivered will be refined until it is live.
 
 In some instances - for example, as OSOM is adopted in an existing organisation - a service contract may be written for a service that already exists. In this case, the service may not progress through the service lifecycle as normal, but in all other respects should be governed as any other service.
 
@@ -67,7 +67,7 @@ It should be noted that the Executive does not have the authority to dictate any
 
 Services and their service managers must have budgets to operate, and the nature of the budgets will be different depending on where in a service's lifecycle it is, and the type of consumers the service has.
 
-Budget allocation is a complex task that needs to be carefully considered. One approach to this is [capital flow management](/capitalflow "capital flow management").
+Budget allocation is a complex task that needs to be carefully considered. One approach to this is [capital flow management]({{ '/capitalflow "capital flow management"' | url }}).
 
 ## Review and analyse fitness data & maps
 
@@ -85,7 +85,7 @@ When changes to services or the service network are foreseen or desired, the exe
 
 ## Review Correction of Error documents
 
-When problems arise inside services, Service Managers are expected to publish [Correction of Error](/coe "Correction of Error") (CoE) documents to the organisation, which help it to learn and grow. The executive should review and consider those CoE documents to understand if there is additional guidance that should be considered for publication.
+When problems arise inside services, Service Managers are expected to publish [Correction of Error]({{ '/coe "Correction of Error"' | url }}) (CoE) documents to the organisation, which help it to learn and grow. The executive should review and consider those CoE documents to understand if there is additional guidance that should be considered for publication.
 
 The executive should consider conducting a regular meeting with all Service Managers where CoE documents are reviewed publicly to ensure a high level of awareness of opportunities for improvement throughout the organisation’s service network.
 
@@ -101,7 +101,7 @@ Where possible, the guidance should be advisory in nature. In general, Service M
 
 ## Endorse Communities of Practice
 
-In any service-based model, it can be hard to ensure people are evaluated fairly, or that they become aware of practices and opportunities outside of the services they work in. [Communities of Practice](/community-of-practice/) (CoPs) exist in OSOM to bridge the gap between the profession and the service.
+In any service-based model, it can be hard to ensure people are evaluated fairly, or that they become aware of practices and opportunities outside of the services they work in. [Communities of Practice]({{ '/community-of-practice/' | url }}) (CoPs) exist in OSOM to bridge the gap between the profession and the service.
 
 CoPs are freely associated with anybody in the organisation. It is up to the executive to determine when a community has reached a sufficient level of maturity to assist service managers with guidance on evaluation for its practitioners, and then endorse that CoP to do so.
 
@@ -113,6 +113,6 @@ In any service network, disputes will arise between services that serve each oth
 
 ## Monitor and advocate better decision making
 
-The executive is responsible for advocating and monitoring the adherence to the [40 guides to better decision](/doctrine)s. One of the ways in which this happens is through the [Correction of Error process](/coe/).
+The executive is responsible for advocating and monitoring the adherence to the [40 guides to better decision]({{ '/doctrine' | url }})s. One of the ways in which this happens is through the [Correction of Error process]({{ '/coe/' | url }}).
 
 Each of the elements of OSOM has been designed in conjunction with the application of those behaviours, and the executive is responsible for constantly being aware of opportunities to alter the operating model more in line with them when needed.

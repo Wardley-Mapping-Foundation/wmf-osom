@@ -5,7 +5,7 @@ tags:
 subtitle: Correction of Error document
 
 ---
-A Correction of Error (CoE) document should be published by the [Service Manager](/services/#service-managers) for the service to which it applies. A CoE document should be published whenever a problem occurs - it shouldn't be necessary for the problem to have impacted the users of the service.
+A Correction of Error (CoE) document should be published by the [Service Manager]({{ '/services/#service-managers' | url }}) for the service to which it applies. A CoE document should be published whenever a problem occurs - it shouldn't be necessary for the problem to have impacted the users of the service.
 
 The CoE document should contain:
 
@@ -17,6 +17,6 @@ The CoE document should contain:
 * The value tradeoffs that need to be avoided in the future
 * Lessons that were learned
 * Corrective actions that have been, or will be taken
-* Elements of the [better decision making guides](/doctrine/) that made a positive or negative contribution to the problem or its resolution.
+* Elements of the [better decision making guides]({{ '/doctrine/' | url }}) that made a positive or negative contribution to the problem or its resolution.
 
 The Correction of Error document may then be called upon for further examination during a [Correction of Error process]().
