@@ -20,8 +20,8 @@ a simple [service lifecycle]({{ '/lifecycle' | url }}) compatible with the
 Service's](https://www.gov.uk/government/organisations/government-digital-service)
 [service manual](https://www.gov.uk/service-manual).
 
-[![a diagram showing an overview of the various parts of](/assets/img/opmodel-overview.jpg "OSOM
-Oviewview")](/assets/img/opmodel-overview.jpg "Operating model
+[![a diagram showing an overview of the various parts of the operating model]({{ '/assets/img/opmodel-overview.jpg' | url }} "OSOM
+Overview")]({{ '/assets/img/opmodel-overview.jpg' | url }} "Operating model
 overview diagram")
 
 ## A template operating model
